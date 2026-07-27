@@ -1,8 +1,26 @@
 aid: gridware
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gridware.png
 name: Gridware
-description: 'Gridware is a company surfaced as a portfolio company of true-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Gridware builds grid intelligence technology for electric utilities. Its Active Grid
+  Response (AGR) platform pairs pole-mounted GridScope sensors with analytics to bring real-time
+  visibility into the physical, electrical, and environmental condition of every span of the
+  distribution grid, closing the "Hazard Awareness Delay" between when a fault or hazard occurs and
+  when a utility detects it. Gridware supports fault prevention, faster power restoration, wildfire
+  and hazard response, and grid asset management. Headquartered in San Francisco with an Applied
+  Research Complex in Richmond, California, the company is backed by True Ventures. Gridware does not
+  currently publish a public developer API, SDKs, or API documentation; this profile captures its
+  public identity, trust/compliance posture, and domain security.'
 url: https://raw.githubusercontent.com/api-evangelist/gridware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Climate
+- Energy
+- Smart Grid
+- Electric Utilities
+- Grid Monitoring
+- IoT
+- Sensors
+- Wildfire Prevention
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.gridware.io/
+- type: About
+  url: https://www.gridware.io/about-gridware
+- type: Blog
+  url: https://www.gridware.io/news
+- type: Support
+  url: https://www.gridware.io/contact
+- type: Careers
+  url: https://www.gridware.io/careers
+- type: PrivacyPolicy
+  url: https://www.gridware.io/privacy-notice
+- type: TrustCenter
+  url: security/gridware-trust-center.yml
+- type: Compliance
+  url: https://trust.gridware.io/
+- type: DomainSecurity
+  url: security/gridware-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

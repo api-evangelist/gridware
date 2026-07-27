@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.gridware.io/
+url: https://trust.gridware.io/
+platform: SafeBase
+certifications:
+- SOC 2 Type 1
+- SOC 2 Type 2
+evidence:
+- source: https://trust.gridware.io/
+  keywords:
+  - soc 2 type 1
+  - soc 2 type 2
+  - trust center
+  - security review
